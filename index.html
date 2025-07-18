@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Abriendo la app...</title>
+  <script>
+    function isIOS() {
+      return /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+    }
+    function isAndroid() {
+      return /android/i.test(navigator.userAgent);
+    }
+    window.onload = function () {
+      if (isAndroid()) {
+        // Intenta abrir la app Android con intent
+        window.location = "intent://onboarding?ref=BRIGADA105#Intent;scheme=biapp;package=hn.com.bi.banpais;end";
+        // Fallback a Play Store
+        setTimeout(function () {
+          window.location = "https://play.google.com/store/apps/details?id=hn.com.bi.banpais";
+        }, 2000);
+      } else if (isIOS()) {
+        // Intenta abrir el esquema personalizado en iOS
+        window.location = "biapp://onboarding?ref=BRIGADA105";
+        // Fallback a App Store
+        setTimeout(function () {
+          window.location = "https://apps.apple.com/app/id1234567890"; // reemplaza con tu ID real
+        }, 2000);
+      } else {
+        // Otros dispositivos, redirige a una página web o info
+        window.location = "https://www.hnbi.com.gt/";
+      }
+    }
+  </script>
+</head>
+<body>
+  <p>Redirigiendo a la app...</p>
+</body>
+</html>
