@@ -13,7 +13,9 @@
     window.onload = function () {
       if (isAndroid()) {
         // Intenta abrir la app Android con intent
-        window.location = "intent://onboarding?ref=BRIGADA105#Intent;scheme=biapp;package=hn.com.bi.banpais;end";
+      //  window.location = "intent://onboarding?ref=BRIGADA105#Intent;scheme=biapp;package=hn.com.bi.banpais;end";
+           window.location = "https://edyknd.github.io/?from_link=true&utm_source=AGENCIA-105-BRIGADA&apn=hn.com.bi.banpais";
+     
         // Fallback a Play Store
         setTimeout(function () {
           window.location = "https://play.google.com/store/apps/details?id=hn.com.bi.banpais";
