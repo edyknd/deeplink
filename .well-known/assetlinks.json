@@ -34,5 +34,15 @@
         "2B:27:71:EE:74:15:A2:62:11:E8:E8:BE:9C:0E:90:C0:53:ED:EA:97:78:DC:A6:50:D1:46:D7:49:27:69:AC:54"
       ]
     }
+  },
+  {
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "hn.com.bi.banpais",
+    "sha256_cert_fingerprints": [
+      "BC:98:15:A5:B6:F3:CE:20:74:B7:DE:AE:FF:2D:AF:93:07:8E:29:81:D5:89:C8:72:71:5C:92:A2:EF:AF:18:0C"
+    ]
   }
+}
 ]
