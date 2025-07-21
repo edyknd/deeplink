@@ -1,0 +1,25 @@
+apple-app-site-association: |
+    {
+        "applinks": {
+            "apps": [],
+            "details": [
+                {
+                    "appID": "Q9P33FEA86.com.banpais.mbanking",
+                    "paths": [
+                        "/fl",
+                        "/qr",
+                        "/login",
+                        "/",
+                        "/digitalAccountExternal",
+                        "/submissions",
+                        "/dstoken"
+                    ]
+                }
+            ]
+        },
+        "webcredentials": {
+            "apps": [
+                "Q9P33FEA86.com.banpais.mbanking"
+            ]
+        }
+    }
