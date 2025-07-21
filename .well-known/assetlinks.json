@@ -1,0 +1,38 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "hn.com.bi.banpais",
+      "sha256_cert_fingerprints": [
+        "9B:78:B8:E1:A2:AD:E6:50:8A:6C:FE:8F:7C:8F:99:78:EF:21:66:8B:21:97:90:0D:82:C0:CB:5C:D1:1D:12:E3"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "hn.com.bi.banpais",
+      "sha256_cert_fingerprints": [
+        "D2:E5:6B:7D:D2:B3:F1:EC:91:97:85:02:7A:5C:D8:86:24:C5:50:07:CB:72:AE:49:6E:07:57:B4:55:cd:7C:60"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "hn.com.bi.banpais",
+      "sha256_cert_fingerprints": [
+        "2B:27:71:EE:74:15:A2:62:11:E8:E8:BE:9C:0E:90:C0:53:ED:EA:97:78:DC:A6:50:D1:46:D7:49:27:69:AC:54"
+      ]
+    }
+  }
+]
