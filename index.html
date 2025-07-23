@@ -24,7 +24,8 @@
         }, 2000);
       } else if (isIOS()) {
         // Intenta abrir el esquema personalizado en iOS
-        window.location = "biapp://onboarding?ref=BRIGADA105";
+        // window.location = "biapp://onboarding?ref=BRIGADA105";
+        window.location = "https://edyknd.github.io/" + queryParams;
         // Fallback a App Store
         setTimeout(function () {
           window.location = "https://apps.apple.com/gt/app/bp-en-l%C3%ADnea/id1019342453"; // reemplaza con tu ID real
